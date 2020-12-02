@@ -1,0 +1,30 @@
+{
+    "name": "klanjabrik/bundle",
+    "description": "Product link on Bundle Items Options on Magento 2.4.1",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+	"authors": [
+	{
+	  "name": "Klanjabrik",
+	  "email": "klanjabrik@gmail.com",
+	  "homepage": "https://klanjabrik.com",
+	  "role": "Dev"
+	}
+	],
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/module-bundle": "101.0.*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Klanjabrik\\Bundle\\": ""
+        }
+    }
+}
